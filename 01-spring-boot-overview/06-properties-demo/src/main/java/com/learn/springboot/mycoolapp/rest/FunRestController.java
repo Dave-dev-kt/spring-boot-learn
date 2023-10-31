@@ -16,7 +16,7 @@ public class FunRestController {
     //expose new endpoint for "team info"
 
     @GetMapping("/teaminfo")
-    private String getTeamInfo(){return this.coachName + ", Team name: " + this.teamName;}
+    private String getTeamInfo(){return "Coach : " + this.coachName + ", Team name: " + this.teamName;}
 
     // Expose endpoint '/' that return hello world
 
