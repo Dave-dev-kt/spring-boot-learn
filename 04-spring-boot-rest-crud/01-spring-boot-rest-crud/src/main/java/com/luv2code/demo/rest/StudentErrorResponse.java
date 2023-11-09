@@ -35,4 +35,8 @@ public class StudentErrorResponse {
         this.message = message;
         this.timestamp = timestamp;
     }
+
+    public StudentErrorResponse() {
+
+    }
 }
